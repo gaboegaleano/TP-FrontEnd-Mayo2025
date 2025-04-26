@@ -1,0 +1,15 @@
+.flex-contenedor-clientes{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.separador-clientes{
+    justify-content: space-between;
+    padding: 20px;
+}
+
+img{
+    border-radius: 10px;
+    width: 50%;
+}

@@ -1,0 +1,48 @@
+.contenedor-flex{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+}
+
+.separador-igual{
+    justify-content: space-between;
+}
+
+main{
+    padding-top: 20px;
+}
+
+.boton-comprar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #0077cc;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.boton-comprar:hover{
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+/*.producto-flex1, .producto-flex2, .producto-flex3 {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+}*/
